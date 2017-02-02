@@ -15,7 +15,7 @@ class MediaInfoCommandBuilder
      */
     public function buildMediaInfoCommandRunner($filepath, array $configuration = [])
     {
-        if (filter_var($filepath, FILTER_VALIDATE_URL) === false) {
+       /* if (filter_var($filepath, FILTER_VALIDATE_URL) === false) {
             $fileSystem = new Filesystem();
 
             if (!$fileSystem->exists($filepath)) {
@@ -28,7 +28,7 @@ class MediaInfoCommandBuilder
                     $filepath
                 ));
             }
-        }
+        }*/
 
         $configuration = $configuration + [
             'command' => null,

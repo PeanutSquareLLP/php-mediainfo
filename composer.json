@@ -1,5 +1,5 @@
 {
-    "name": "mhor/php-mediainfo",
+    "name": "peanutsquare/php-mediainfo",
     "type": "library",
     "description": "PHP wrapper around the mediainfo command",
     "license": "MIT",
